@@ -1,0 +1,1 @@
+define(["backbone"],function(e){return Calendar.Models.Day=e.Model.extend({defaults:{day:null,date:null}}),Calendar.Models.Day})

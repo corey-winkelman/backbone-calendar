@@ -1,0 +1,1 @@
+define(["backbone","models/dayModel"],function(e,t){return Calendar.Collections.Days=e.Collection.extend({model:t,fetch:function(e,n){var r=(new Date(e,n+1,0)).getDate();for(var i=0,s=1;i<r;i++){var o=new t({date:new Date(e,n,s),day:s++});o.date=new Date(e,n,s-1),this.add(o)}this.trigger("fetch:days:completed")}}),Calendar.Collections.Days})

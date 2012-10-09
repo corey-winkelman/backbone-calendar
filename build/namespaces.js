@@ -1,0 +1,1 @@
+var Calendar={Models:{},Collections:{},Views:{},Routers:{},Events:{}}

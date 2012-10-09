@@ -1,0 +1,1 @@
+define(["backbone"],function(e){return Calendar.Models.AddAppointment=e.Model.extend({}),Calendar.Models.AddAppointment})
